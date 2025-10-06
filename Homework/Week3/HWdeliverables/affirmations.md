@@ -4,5 +4,5 @@ I desire a 300k+ salary.
 
 My Group Leader's name is Omar Fleming.
 
-[My Happy Place](https://github.com/tre-6radshaw/class7/blob/main/Homework/Week3/HWdeliverables/myhappyplace.jpg?raw=true)
+[My Happy Place]((https://www.shutterstock.com/image-photo/vinnytsia-ukraine-february-12-2025-close-2585697671))
 
