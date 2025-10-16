@@ -1,0 +1,28 @@
+Here we have a repo called Merge-Test.
+
+The first step for this type of merge will be to create a new branch under the main branch.
+
+The purpose of this new branch is to develop code while keeping the new code isolated from the main branch.
+
+To view all of your branches, run the command 'git branch'.
+Currently, the only branch is '* main'.
+
+$ git branch
+* main
+
+To create a new branch, you have two options:
+You can run 'git branch new_branch' which will create the branch, then you can switch to the created branch with 'git checkout new_branch'.
+
+Alternatively, 'git checkout -b' will allow you to create a new branch and automatically switch to it.
+
+$ git checkout -b branchuno
+Switched to a new branch 'branchuno'
+
+After creating and switching to your new branch, you are free to develop and test your new code without fear of it messing with the code in the main branch.
+After creating your new code/files, add the files via 'git add'. You can perform multiple adds and commits before merging the new branch with the main branch. 
+
+Once ready to merge, switch back to your main branch via 'git checkout main'.
+Confirm you're on your main branch by the '(main)' tag at the end of gitbash.
+Run 'git merge new_branch' to update main branch with your new branch.
+Run ls to confirm the files from your new branch are in your main branch.
+You can run 'git branch -d new_branch' to safely remove the branch, since it has already been merged into the new branch.
