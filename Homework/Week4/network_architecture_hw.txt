@@ -1,0 +1,21 @@
+Region: us-east-2 (ohio)
+
+VPC 10.10.0.0/16
+
+Public Subnets
+AZ-1: 10.10.1.0/24
+AZ-2: 10.10.2.0/24
+AZ-3: 10.10.3.0/24
+Subnet Mask is 255.255.255.0, as 24 bits are used for the network portion.
+
+Private Subnets
+AZ-1: 10.10.11.0/24, 10.10.12.0/24
+Useable range: 10.10.11.1-254, 10.10.12.1-254
+
+
+AZ-2: 10.10.21.0/24, 10.10.22.0/24
+Useable range: 10.10.21.1-254, 10.10.22.1-254
+
+AZ-3: 10.10.31.0/24, 10.10.32.0/24
+Useable range: 10.10.31.1-254, 10.10.32.1-254
+
